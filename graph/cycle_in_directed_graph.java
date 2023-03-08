@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class cycle_in_tree
+public class cycle_in_directed_graph
 {
 
     boolean[] c,visited;
@@ -19,7 +19,7 @@ public class cycle_in_tree
             mat[i][1]=sc.nextInt();
         }
 
-       new cycle_in_tree().findcycle(n,mat);
+       new cycle_in_directed_graph().findcycle(n,mat);
     }
 
     boolean findcycle(int n,int[][] mat)
